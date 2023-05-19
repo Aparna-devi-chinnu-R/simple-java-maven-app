@@ -1,0 +1,15 @@
+redisData:
+  - name : redisA
+    url : redisA:123
+    alias : redisQA
+    numberOfReplicas : 0
+  - name : redisB
+    url : redisB:123
+    alias : redisBA
+    numberOfReplicas : 0
+  - name : redisC
+    url : redisC:123
+    alias : redisCA
+    numberOfReplicas : 0
+
+    
