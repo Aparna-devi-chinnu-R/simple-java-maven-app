@@ -1,10 +1,10 @@
 redisData:
-  - name : ${param.Environment}
-    url : {param.Environment}
-    alias : {env.Environment}
-    numberOfReplicas : ${env.Environment}
-  - name : env.Environment
-    url : param.Environment
+  - name : "${param.Environment}"
+    url : "{param.Environment}"
+    alias : "{env.Environment}"
+    numberOfReplicas : "${env.Environment}"
+  - name : "env.Environment"
+    url : "param.Environment"
     alias : redisBA
     numberOfReplicas : 0
   - name : redisC
