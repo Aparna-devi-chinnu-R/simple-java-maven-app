@@ -1,6 +1,6 @@
 kafkaData:
-   - name : kafkaA
-     url :  kafkaA:234
+   - name : System.getEnv("Environment")
+     url :  params["Environment"]
    - name : kafkaB
      url :  kafkaB:234
    - name : kafkaC
