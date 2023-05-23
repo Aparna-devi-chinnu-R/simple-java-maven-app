@@ -6,9 +6,9 @@ redisData:
   - name : "env.Environment"
     url : "param.Environment"
     alias : Environment
-    numberOfReplicas : "$Environment"
+    numberOfReplicas : $Environment
   - name : "Environment"
-    url : {Environment}
+    url : ${Environment}
     alias : "{Environment}"
     numberOfReplicas : "${Environment}"
 
