@@ -10,6 +10,6 @@ redisData:
   - name : "Environment"
     url : ${Environment}
     alias : "{Environment}"
-    numberOfReplicas : "${Environment}"
+    numberOfReplicas : '${Environment}'
 
     
