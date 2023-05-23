@@ -5,11 +5,11 @@ redisData:
     numberOfReplicas : "${env.Environment}"
   - name : "env.Environment"
     url : "param.Environment"
-    alias : redisBA
-    numberOfReplicas : 0
-  - name : redisC
-    url : redisC:123
-    alias : redisCA
-    numberOfReplicas : 0
+    alias : Environment
+    numberOfReplicas : "$Environment"
+  - name : "Environment"
+    url : {Environment}
+    alias : "{Environment}"
+    numberOfReplicas : "${Environment}"
 
     
