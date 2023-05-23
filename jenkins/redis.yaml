@@ -1,10 +1,10 @@
 redisData:
-  - name : redisA
-    url : redisA:123
-    alias : redisQA
-    numberOfReplicas : 0
-  - name : redisB
-    url : redisB:123
+  - name : ${param.Environment}
+    url : {param.Environment}
+    alias : {env.Environment}
+    numberOfReplicas : ${env.Environment}
+  - name : env.Environment
+    url : param.Environment
     alias : redisBA
     numberOfReplicas : 0
   - name : redisC
