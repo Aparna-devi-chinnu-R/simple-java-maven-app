@@ -1,3 +1,3 @@
-export Environment=$Environment
+export ENVIRONMENT=$Environment
 
-echo $Environment
+echo $ENVIRONMENT
