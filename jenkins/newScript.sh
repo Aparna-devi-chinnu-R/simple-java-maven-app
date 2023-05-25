@@ -1,4 +1,4 @@
-export ENVIRONMENT=${Environment}
+export ENVIRONMENT=${ENVIRONMENT}
 
 echo "This is the env" $ENVIRONMENT
 
