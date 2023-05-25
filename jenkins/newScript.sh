@@ -1,3 +1,3 @@
-export ENVIRONMENT=$Environment
+export ENVIRONMENT=$params.Environment
 
 echo $ENVIRONMENT
