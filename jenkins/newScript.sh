@@ -1,5 +1,5 @@
 export ENVIRONMENT=${Environment}
 
-echo $ENVIRONMENT
+echo "This is the env" $ENVIRONMENT
 
 set +v
